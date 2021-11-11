@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graphic Design</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="mobile-nav">
+    <div class="nav-inside">
+      <button class="exit-menu">X</button>
+      <a href="#">Портфолио</a>
+      <a href="№">Услуги и цены</a>
+      <a href="№">Мы</a>
+      <a href="№">Контакты</a>
+    </div>
+    <div class="btn-call">
+      <button class="modal-btn_3">Обсудить проект</button>
+    </div>
+  </section>
+  <!-- Header start -->
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="">
+    </div>
+    <div class="menu">
+      
+      <nav>
+        <a href="#">Портфолио</a>
+        <a href="№">Услуги и цены</a>
+        <a href="№">Мы</a>
+        <a href="№">Контакты</a>
+      </nav>
+    </div>
+    <div class="contacts">
+      <span>+38 (097) 757 51 51</span>
+      <a class="modal-btn">Обсудить проект</a>
+    </div>
+    <div class="burger-menu">
+      <button class="hamburger-menu"><img src="img/hamburger-menu.png" alt="" class="nav-btn"></button>
+    </div>
+  </header>
+
+  <!-- Header end -->
+
+  <!-- section.content-info start -->
+  <section class="content-info">
+    <div class="text-info">
+      <p>
+        Whales Design
+      </p>
+      <h1>Мы помогаем зарабатывать в интернете</h1>
+      <a class="modal-btn_2">Обсудить проект</a>
+      <!-- <div class="sel">
+          <input type="radio" name="sel">
+          <input type="radio" name="sel">
+          <input type="radio" name="sel">
+        </div> -->
+    </div>
+    
+    <div class="img-info">
+      <div class="img-text">
+        <p class="slider__p">01.</p>
+        <h2 class="slider__h2">Графический дизайн</h2>
+      </div>
+      <div class="slider__img">
+        <img src="img/content-img.png" alt="" class="content-img">
+      </div>
+      
+    </div>
+  </section>
+  <section class="switchs">
+    <input type="radio" name="slider" value="1" checked onclick="fun1()">
+    <input type="radio" name="slider" value="2" onclick="fun1()">
+    <input type="radio" name="slider" value="3" onclick="fun1()">
+  </section>
+  <!-- section.content-info end -->
+
+  <!-- section.about start -->
+  <section class="about">
+    <p>О нас</p>
+    <h2>Мы онлайн дизайн студия, которая, помогает нашим клиентам по всему миру получать осмысленный дизайн, создавая,
+      значимые связи между людьми и брендами!</h2>
+    <p>Выполняем проекты для ведущих веб-студий по всему миру в качестве субподрядчиков. Ключевой состав команды
+      работает с момента основания компании. Мы гарантируем индивидуальный подход к каждому новому веб-сайту, логотипу,
+      и/или фирменному стилю.</p>
+  </section>
+  <!-- section.about end -->
+
+  <!-- section.works start -->
+  <section class="works">
+    <div class="text-works">
+      <h2>Наши работы</h2>
+      <nav>
+        <a id="first__a">Логотипы</a>
+        <a id="second__a">Веб-сайты</a>
+        <a id="third__a">Фирменный стиль</a>
+        <a id="fourth__a">Иллюстрации</a>
+
+        <a href="#">Все работы</a>
+        <!-- <div class="menu_radio">
+          <input type="radio" name="nav_radio" value="1" checked>
+          <input type="radio" name="nav_radio" value="2">
+          <input type="radio" name="nav_radio" value="3">
+          <input type="radio" name="nav_radio" value="4">
+        </div> -->
+      </nav>
+    </div>
+  </section>
+  <!-- section.works end -->
+
+  <!-- section.pictures start -->
+  <section class="pictures">
+    <div class="pic-1">
+      <img src="img/pic-1.png" alt="">
+    </div>
+    <div class="pic-2">
+      <img src="img/pic-2.png" alt="">
+      <img src="img/pic-3.png" alt="">
+    </div>
+    <div class="pic-3">
+      <img src="img/pic-3.png" alt="">
+      <img src="img/pic-2.png" alt="">
+    </div>
+    <div class="pic-1">
+      <img src="img/pic-1.png" alt="">
+    </div>
+    <div class="pic-2">
+      <img src="img/pic-2.png" alt="">
+      <img src="img/pic-3.png" alt="">
+    </div>
+    <div class="pic-btn">
+      <a href="#">Все работы</a>
+    </div>
+  </section>
+  <!-- section.pictures end -->
+
+  <!-- section.brify start -->
+  <section class="brify">
+    <h2>Брифы</h2>
+    <p class="brify-info">Помогите нам, сделать ваш проект лучше! После заполнения брифа, Мы свяжемся с вами в ближайшее
+      время!</p>
+    <div class="types">
+      <p class="brif"><span>01 </span>Веб Дизайн</p>
+      <p class="brif"><span>02 </span>Лого</p>
+      <p class="brif"><span>03 </span>Иллюстрация</p>
+      <p class="brif"><span>04 </span>Презентация</p>
+      <p class="brif"><span>05 </span>Айдентика</p>
+    </div>
+  </section>
+  <!-- section.brify end -->
+
+  <!-- section.clients start -->
+  <section class="clients">
+    <div class="text-clients">
+      <h2>Клиенты</h2>
+      <p>Гордимся сотрудничеством с лидерами своих отраслей и счастливы быть их digital-партнером</p>
+    </div>
+    <div class="img-clients">
+      <img src="img/clients.png" alt="">
+    </div>
+  </section>
+  <!-- section.clients end -->
+
+  <!-- section.form start -->
+  <section class="form">
+    <div class="form-inside">
+      <div class="form-text">
+        <h2>Обсудить проект</h2>
+        <p>Крутые проекты начинаются с заполнения этой формы</p>
+        <img src="img/form.png" alt="" class="disable_img">
+      </div>
+      <div class="form-input">
+
+        <div class="form-name">
+          <label for="name">
+            <p>Ваше имя*</p>
+          </label>
+          <input type="name" placeholder="Введите ваше имя" id="name">
+        </div>
+
+
+        <div class="phone">
+          <div>
+            <label for="phone">
+              <p>Телефон*</p>
+            </label>
+            <input type="number" placeholder="Введите номер телефона" id="phone">
+          </div>
+
+          <div class="email-block">
+            <label for="mail">
+              <p class="email-text">Email*</p>
+            </label>
+            <input type="mail" placeholder="введите электронный адрес" id="mail">
+          </div>
+
+        </div>
+
+        <div class="message">
+          <label for="message">
+            <p>Сообщение</p>
+          </label>
+          <input type="text" placeholder="введите сообщение" id="message">
+        </div>
+
+        <div class="send">
+          <button>Отправить</button>
+          <input type="checkbox" class="check" id="check">
+          <label for="check" class="check_text">
+            <span class="check_text">Согласие на обработку персональных данных</span>
+          </label>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- section.form end -->
+
+  <!-- footer start -->
+  <footer>
+    <div class="foot-up">
+      <div class="foot-1">
+        <div class="foot-logo">
+          <img src="img/logo_light.png" alt="">
+        </div>
+        <div class="foot-soc">
+          <img src="img/instagram.png" alt="">
+          <img src="img/behance.png" alt="">
+          <img src="img/dribble.png" alt="">
+        </div>
+      </div>
+      <div class="foot-2">
+        <h3>
+          БРИФЫ
+        </h3>
+        <a href="#">Бриф на разработку веб дизайна</a>
+        <a href="#">Бриф на разработку айдентики</a>
+        <a href="#">Бриф на разработку презентации</a>
+        <a href="#">Бриф на разработку логотипа</a>
+        <a href="#">Бриф на разработку иллюстрации</a>
+      </div>
+      <div class="foot-3">
+        <h3>О НАС</h3>
+        <a href="">Портфолио</a>
+        <a href="">Услуги и цены</a>
+        <a href="">Мы</a>
+        <a href="">Контакты</a>
+      </div>
+      <div class="foot-4">
+        <h3>КОНТАКТЫ</h3>
+        <a href="" class="mail">hello@whalesagency.com</a>
+        <a href="">+38 (098) 888 10 08</a>
+        <a href="">+38 (063) 333 10 33</a>
+        <div class="messengers">
+          <a href=""><img src="img/telegram.png" alt=""></a>
+          <a href=""><img src="img/viber.png" alt=""></a>
+          <a href=""><img src="img/whatsapp.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-down">
+      <div class="fd-1">
+        <p>Copyright © 2020 Whales Design.</p>
+      </div>
+      <div class="fd-2">
+        <a href="">Политика Конфиденциальности</a>
+        <a href="">Публичная Оферта</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <section class="modal">
+    <div class="modal-main">
+      <div class="modal-text">
+        <button class="close-window">X</button>
+        <h1>Обсудить проект</h1>
+      </div>
+      <div class="modal-form">
+        <form action="">
+          <div class="inputs">
+            <p>
+              ФИО<span>*</span>
+            </p>
+            <input type="text" placeholder="Ввелите ФИО">
+          </div>
+
+          <div class="inputs">
+            <p>
+              Номер телефона<span>*</span>
+            </p>
+            <input type="phone" placeholder="Ввелите номер телефона">
+          </div>
+          <div class="inputs">
+            <p>
+              Email
+            </p>
+
+            <input type="email" placeholder="Ввелите адрес Email">
+          </div>
+          <div class="inputs">
+            <p>
+              Инстаграм
+            </p>
+            <input type="phone" placeholder="https://instagram.com/graphic_design">
+          </div>
+          <div class="inputs">
+            <p>
+              Телеграм
+            </p>
+            <input type="phone" placeholder="https://t.me/graphic_design">
+          </div>
+          <div class="modal-send">
+            <button>Отправить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer end -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>

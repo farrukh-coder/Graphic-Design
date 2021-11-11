@@ -1,0 +1,1002 @@
+@media (max-width: 1199.98px) {
+  header{
+    width: 900px;
+  }
+
+  div.menu{
+    width: 500px;
+  }
+
+  .menu nav a{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .contacts span{
+    font-size: 11px;
+  }
+
+  section.content-info{
+    width: 990px;
+    margin-top: 100px;
+  }
+
+  div.text-info{
+    width: 300px;
+  }
+
+  .text-info p,
+  .text-info h1{
+    width: 220px;
+    margin: 0 64px;
+  }
+
+  .text-info a{
+    margin-left: 64px;
+  }
+
+  section.switchs{
+    width: 990px;
+    
+  }
+  .switchs input[type="radio"]:nth-child(1){
+    margin-left: 64px;
+  }
+
+  section.about{
+    width: 990px;
+    margin: 0 auto;
+  }
+
+  .about h2{
+    font-size: 30px;
+    width: 990px;
+    margin: auto;
+  }
+  
+  .about p{
+    width: 990px;
+    margin: auto;
+    
+  }
+
+  section.works{
+    width: 990px;
+  }
+
+  section.pictures{
+    width: 990px;
+  }
+
+  .pic-1 img{
+    width: 100%;
+    height: 50%;
+  }
+
+  .pic-2 img:nth-child(1){
+    width: 53%;
+    height: 350px; 
+  }
+  
+  .pic-2 img:nth-child(2){
+    width: 45%;
+    height: 350px; 
+  }
+  
+  .pic-3 img:nth-child(1){
+    width: 45%;
+    height: 350px;
+  }
+  
+  .pic-3 img:nth-child(2){
+    width: 53%;
+    height: 350px;
+  }
+
+  .pic-btn{
+    width: 990px;
+    margin: 40px 0;
+  }
+
+  section.brify{
+    width: 864px;
+  }
+  .brify h2{
+    width: 500px;
+    
+  }
+  .brify-info{
+    width: 500px;
+    
+  }
+  
+  section.clients{
+    width: 990px;
+  }
+
+  .img-clients img{
+    margin-left: -50px;
+  }
+  
+  section.form{
+    padding-top: 100px;
+    height: 550px;
+  }
+
+  div.form-inside{
+    width: 990px;
+  }
+
+  .form-text{
+    width: 350px;
+  }
+
+  .form-text h2,
+  .form-text p{
+    padding-left: 50px;
+  }
+
+  .form-input{
+    margin-left: 100px;
+  }
+
+  .form-name input, .message input  {
+    width: 450px;
+  }
+
+  .phone input{
+    width: 200px;
+  }
+
+  .form-text img{
+    width: 130%;
+    bottom: -24px;
+  }
+  
+  .foot-up, .foot-down{
+    width: 990px;
+    justify-content: space-around;
+  }
+
+  .foot-1{
+    width: 150px;
+  }
+
+  .foot-2{
+    width: 300px;
+    margin-left: 30px;
+    margin-right: 0;
+  }
+
+  .foot-3{
+    width: 200px;
+  }
+
+}
+
+@media (max-width: 991.98px) {
+  header{
+    width: 760px;
+  }
+  
+  div.logo{
+    width: 100px;
+    margin-left: 10px;
+  }
+
+  div.menu{
+    width: 480px;
+    margin-left: 20px;
+  }
+
+  .menu nav a{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .contacts{
+    width: 280px;
+    margin-right: 10px;
+  }
+
+  .contacts span{
+    font-size: 8px;
+  }
+
+  section.content-info{
+    width: 760px;
+  }
+  
+  div.text-info{
+    width: 290px;
+  }
+
+  div.img-info{
+    margin-left: 100px;
+  }
+
+  .img-text p{
+    font-size: 20px;
+  }
+
+  .img-text h2{
+    font-size: 35px;
+    width: 280px;
+  }
+
+  .content-img{
+    width: 300px;
+    height: 309px;
+  }
+
+  section.switchs{
+    width: 760px;
+  }
+
+  section.about{
+    width: 760px;
+  }
+
+  .about h2{
+    font-size: 30px;
+    width: 760px;
+    margin: auto;
+  }
+  
+  .about p{
+    width: 760px;
+    margin: auto;
+  }
+
+  section.works{
+    width: 760px;
+    margin: 90px auto 40px auto;
+  }
+
+  .text-works nav a:nth-child(5){
+    /* width: 760px; */
+    margin-right: 0;
+  }
+
+  section.pictures{
+    width: 760px;
+  }
+
+  .pic-btn{
+    width: 760px;
+  }
+
+  section.brify{
+    width: 760px;
+  }
+
+  section.clients{
+    width: 760px;
+  }
+
+  .img-clients img{
+    margin-left: 0;
+    width: 760px;
+  }
+  
+  section.form{
+    padding-top: 90px;
+    height: 540px;
+  }
+
+  div.form-inside{
+    width: 760px;
+  }
+
+  .form-text{
+    width: 300px;
+  }
+
+  .form-text h2,
+  .form-text p{
+    padding-left: 30px;
+  }
+
+  .form-input{
+    margin-left: 80px;
+  }
+  
+  .form-name input, .message input{
+    width: 350px;
+  }
+
+  .phone input{
+    width: 150px;
+  }
+
+  .form-text h2{
+    width: 400px;
+  }
+
+  .form-text img{
+    width: 120%;
+    bottom: -85px;
+  }
+
+  .foot-up, .foot-down{
+    width: 760px;
+  }
+
+  .foot-up{
+    justify-content: center;
+  }
+
+  .foot-down{
+    display: flex;
+    justify-content: center;
+  }
+
+  .fd-1 a{
+    margin-left: 0;
+  }
+
+  .text-works h2{
+    width: 760px;
+  }
+
+  .text-clients h2{
+    width: 760px;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+  header{
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.logo{
+    display: flex;
+  }
+
+  div.menu{
+    display: none;
+  }
+
+  div.contacts{
+    display: flex;
+    justify-content: center;
+  }
+
+  div.burger-menu{
+    display: flex;
+  }
+
+  .burger-menu img{
+    width: 40px;
+  }
+
+  section.content-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 570px;
+    height: 560px;
+  }
+
+  div.text-info{
+    width: 570px;
+    margin: 0 0 90px 0;
+        
+  }
+  .text-info p{
+    width: 270px;
+    margin: 0;
+    font-size: 25px;
+
+  }
+  .text-info h1{
+    margin: 0;
+    width: 520px;
+    font-size: 35px;
+    font-weight: 700;
+    
+  }
+
+  .text-info a{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 0;
+  }
+
+  .img-info{
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    height: 350px;
+  }
+
+  .img-text{
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .slider__p{
+    position: relative;
+    left: -140px;
+  }
+  .slider__img{
+    display: flex;
+  }
+  .content-img{
+    position: relative;
+    /* left: -80px;
+    width: 90%; */
+    height: auto;
+  }
+
+  section.switchs{
+    width: 570px;
+  }
+
+  section.about{
+    width: 570px;
+  }
+
+  .about p{
+    width: 570px;
+    font-size: 20px;
+  }
+
+  .about h2{
+    width: 570px;
+    font-size: 25px;
+  }
+
+  section.works{
+    width: 570px;
+  }
+
+  .text-works nav{
+    display: none;
+  }
+
+  .text-works h2{
+    width: 570px;
+  }
+
+  section.pictures{
+    width: 570px;
+  }
+
+  .pic-1 img{
+    width: 100%;
+    height: auto !important;
+  }
+
+  .pic-2{
+    display: block;
+  }
+
+  .pic-2 img, 
+  .pic-3 img{
+    width: 570px !important;
+    height: auto !important;
+  }
+
+  .pic-btn{
+    width: 570px;
+  }
+
+  section.brify{
+    width: 570px;
+  }
+  .brify-info{
+    width: 570px;
+    font-size: 20px;
+  }
+
+  section.clients{
+    width: 570px;
+  }
+  .clients h2{
+    width: 570px;
+  }
+  .clients p{
+    width: 420px; 
+  }
+
+  .img-clients img{
+    width: 570px;
+    height: auto;
+  }
+
+  section.form{
+    margin-top: 0;
+    padding-top: 80px;
+    height: 650px;
+    
+  }
+
+  div.form-inside{
+    width: 570px;
+    display: block;
+    margin-top: 0;
+  }
+
+  div.form-text{
+    width: 570px;
+    height: 130px;
+  }
+  
+  .form-text img{
+    display: none;
+  }
+
+  div.form-input{
+    width: 520px;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+
+  div.form-name{
+    width: 500px;
+    margin: 0;
+  }
+
+  footer{
+    padding-top: 40px;
+  }
+
+  .foot-up, .foot-down{
+    width: 570px;
+  }
+
+  .foot-up{
+    flex-direction: column;
+  }
+
+  .foot-soc img{
+    display: none;
+  }
+
+  .foot-2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .foot-3{
+    display: none;
+  }
+
+  .foot-4{
+    margin: 0 30px;
+  }
+
+  .foot-4 h3, .foot-4 a{
+    width: 240px;
+    display: block;
+    
+  }
+  
+  div.messengers{
+    display: none;
+  }
+
+  .foot-down{
+    display: none;
+    flex-direction: column;
+  }
+
+
+
+}
+
+@media (max-width: 575.98px) {
+  header{
+    width: 470px;
+  }
+  div.contacts{
+    display: none;
+  }
+
+  section.content-info{
+    width: 480px;
+  }
+
+  div.text-info{
+    width: 440px;
+    margin:auto;
+  }
+
+  div.text-info p{
+    font-size: 20px;
+  }
+
+  div.text-info h1{
+    width: 440px;
+    font-size: 35px;
+  }
+
+  div.text-info a{
+    width: 200px;
+    font-size: 16px;
+  }
+
+  div.img-info{
+    width: 440px;
+    margin: auto;
+  }
+
+  .img-text{
+    margin-left: 0;
+    left: -60px;
+  }
+
+  p.slider__p{
+    margin-left: 0;
+    left: 0px;
+    font-size: 25px;
+  }
+
+  h2.slider__h2{
+    left: 0px;
+    font-size: 35px;
+  }
+
+  .slider__img{
+    margin-top: 30px;
+    position: relative;
+    right: -40px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  section.switchs{
+    width: 480px;
+    margin-left: 0;
+    position: relative;
+    top: 45px;
+    left: -30px;
+  }
+
+  section.about{
+    width: 480px;
+    display: block;
+  }
+
+  .about p{
+    width: 440px;
+    margin: auto;
+  }
+
+  .about h2{
+    width: 440px;
+  }
+  
+  section.works{
+    display: none;
+  }
+
+  section.pictures{
+    display: none;
+  }
+
+
+  section.brify{
+    width: 480px;
+  }
+  
+  section.brify h2{
+    width: 440px;
+    margin: auto;
+  }
+
+  .brify-info{
+    width: 440px;
+    margin: auto;
+  }
+
+  div.types{
+    width: 480px;
+  }
+
+  .types p{
+    width: 440px;
+    margin: auto;
+  }
+
+  section.clients{
+    width: 480px;
+  }
+
+  .clients h2{
+    width: 480px;
+  }
+  .clients p{
+    width: 420px; 
+  }
+
+  .img-clients img{
+    width: 440px;
+  }
+
+  section.form{
+    height: 740px;
+    
+  }
+
+  div.form-inside{
+    width: 480px;
+  }
+
+  div.form-text{
+    width: 480px;
+  }
+
+  div.form-input{
+    width: 400px !important;
+  }
+
+  div.form-name, div.phone, div.message, div.send{
+    width: 420px;
+  }
+
+  .form-text p{
+    width: 440px;
+  }
+  
+  .send{
+    width: 460px;
+    display: flex;
+  }
+
+  .check, .check_text{
+    display: none;
+  }
+  
+
+  div.form-input{
+    width: 480px;
+    margin-left: 30px;
+  }
+
+  .form-name input, .message input, .phone input{
+    width: 240px;
+  }
+
+  div.phone{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.email-block{
+    
+    width: 400px;
+  }
+
+  p.email-text{
+    width: 300px;
+  }
+  
+  div.foot-up{
+    width: 480px;
+  }
+
+  div.foot-down{
+    width: 480px;
+  }
+  
+
+}
+
+@media (max-width: 479.98px) {
+  header{
+    width: 360px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  section.content-info{
+    width: 360px;
+    height: 380px;
+    margin-top: 30px;
+  }
+
+  div.text-info{
+    width: 360px;
+  }
+
+  div.text-info h1{
+    width: 360px;
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  div.text-info a{
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  div.img-info{
+    width: 360px;
+  }
+
+  .img-text{
+    margin-top: -30px;
+    left: 0;
+  }
+
+  p.slider__p{
+    font-size: 22px;
+  }
+
+  h2.slider__h2{
+    margin-top: 0;
+  }
+
+  div.slider__img{
+    display: block;
+    margin: 0;
+    right: 0;
+  }
+
+  img.content-img{
+    margin-top: 40px;
+    margin-left: 60px;
+    overflow-x: hidden;
+    width: 70%;
+    height: auto;
+  }
+
+  section.switchs{
+    width: 360px;
+    left: 0px;
+    margin-left: 0;
+  }
+
+  .switchs input[type="radio"]:nth-child(1){
+    margin-left: 20px;  
+  }
+
+  section.about{
+    width: 360px;
+  }
+  .about p{
+    font-size: 15px;
+    width: 360px;
+  }
+
+  .about h2{
+    width: 360px;
+    font-size: 18px;
+  }
+
+  section.brify{
+    margin-top: 40px;
+    width: 360px;
+  }
+
+  section.brify h2{
+    width: 360px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  p.brify-info{
+    font-size: 15px;
+  }
+
+  .brify-info{
+    width: 360px;
+    padding-bottom: 30px;
+  }
+
+  div.types{
+    width: 360px;
+    
+  }
+
+  p.brif{
+    width: 360px;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  p.brif span{
+    top: -10px;
+  }
+
+  section.clients{
+    width: 360px;
+  }
+
+  .clients h2{
+    width: 360px;
+  }
+
+  .clients p{
+    width: 360px;
+  }
+
+  .img-clients img{
+    width: 360px;
+  }
+
+  section.form{
+    padding-top: 60px;
+    height: 660px;
+  }
+
+  div.form-inside{
+    width: 360px;
+  }
+
+  div.form-text{
+    width: 360px;
+    margin: 0;
+    
+  }
+
+  div.form-text h2, div.form-text p{
+    width: 320px;
+    margin: 0 20px 0 20px;
+    padding: 0;
+  }
+
+  div.form-input{
+    width: 330px !important; 
+    margin: 0 20px 0 20px;
+  }
+
+  div.form-name{
+    width: 330px;
+  }
+
+  div.phone, div.email-block, div.message{
+    width: 330px;
+  }
+
+  div.send{
+    display: block;
+    width: 330px;
+  }
+
+  div.foot-up{
+    width: 360px;
+  }
+  
+  .modal-main{
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal-text button{
+    top: 30px;
+    right: 30px;
+    font-size: 30px;
+  }
+
+  .modal-text h1{
+    margin-top: 30px;
+  }
+
+  .inputs{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputs p{
+    width: 300px;
+    margin-left: 80px;
+  }
+
+  .inputs input{
+    width: 300px;
+    height: 40px;
+    margin-top: 5px;
+  }
+
+
+}
